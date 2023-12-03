@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700&family=Fira+Sans+Condensed:wght@100;400;600&family=Sarabun:wght@100;400&family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.container {
+  width: 70%;
+  min-width: 700px;
+  height: 130vh;
+
+  margin: auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+}
+/* bar */
+.bar_select {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin-right: 60px;
+}
+.bar_select > a {
+  text-decoration: none;
+  color: #000;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+.bar_select a:hover:not(.active) {
+  color: red;
+  transition: 0.3s;
+}
+
+/* bar end */
+/* blog */
+.box {
+  display: flex;
+
+  width: 100%;
+  gap: 20px;
+  height: 100vh;
+ 
+}
+.blog_text {
+  width: 70%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+
+  flex-direction: column;
+
+  margin: auto;
+}
+.blog_inside {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+.blog_inside > * {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+h4 > span {
+  color: grey;
+}
+.blog_head > h1 {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+}
+/* footer */
+.footer > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.icon > * {
+    margin-top: 1.2rem;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+.icon *:hover {
+    cursor: pointer;
+    color: red;
+    transition: 0.4s;
+}
+span {
+   padding: 4px; 
+}
