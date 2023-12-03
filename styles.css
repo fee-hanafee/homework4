@@ -11,7 +11,6 @@ body {
 .container {
   width: 70%;
   min-width: 700px;
-  
   margin: auto;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -24,7 +23,6 @@ body {
   padding-right: 60px;
   height: 100px;
   padding-bottom: 24px;
- 
 }
 .bar_select > a {
   text-decoration: none;
@@ -36,8 +34,8 @@ body {
   color: red;
   transition: 0.3s;
 }
-.bar_select .red{
-    color: red;
+.bar_select .red {
+  color: red;
 }
 /* bar end */
 /* blog */
@@ -45,13 +43,11 @@ body {
 
 .box {
   display: flex;
-  
   width: 100%;
-  
 }
 
 .blog_head {
-    height: 50px;
+  height: 50px;
 }
 .blog_head > h1 {
   font-size: 2.4rem;
@@ -78,44 +74,95 @@ body {
 h4 > span {
   color: grey;
 }
-
 /* blog head end */
 /* footer */
-.footer  {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 24px;
 }
 .icon > * {
-    margin-top: 1.2rem;
-    padding: 1.2rem;
-    font-size: 1.6rem;
-    padding: 8px 16px; 
-     
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  padding: 8px 16px;
 }
 .icon *:hover {
-    cursor: pointer;
-    color: red;
-    transition: 0.4s;
+  cursor: pointer;
+  color: red;
+  transition: 0.4s;
 }
 span {
-   padding: 4px; 
+  padding: 4px;
 }
+
+/* Works page */
+.boxContent {
+  
+  width: 100%;
+}
+.boxContent_inside {
+  width: 80%;
+  margin: auto;
+  
+}
+.boxContent_inside > * {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 24px;
+  border-bottom: 1px solid gray;
+}
+.ditest > * {
+    display: flex;
+}
+.contentHead {
+    height: 80px;
+    border: none;
+}
+.vdoContent > * {
+  width: 360px;
+  height: 240px;
+  margin-right: 20px;
+  
+  border-radius: 8px;
+}
+.text_Content > * {
+align-items: center;
+padding: 10px; 
+   
+}
+
+/* works page end */
 /* media */
-@media(max-width :700px) {
-    .container {
-        display: flex;
-        width: 400px;
-        min-width: 500px;
-        justify-content: center;
-        margin: auto;    
-    }
-    .boxBlog { 
-        min-width: 400px;    
-    }
-   
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    width: 400px;
+    min-width: 500px;
+    justify-content: center;
+    margin: auto;
+    box-shadow: none;
+  }
+  .boxBlog {
+    min-width: 400px;
+  }
+  /* box 2 */
+  .container_box2 {
+    
+  }
+  .boxContent_inside {
+    width: 92%;
+  }
+  .vdoContent > * {
+    width: 450px;
+    height: 280px;
+  }
+  .ditest > * {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
 }
-
-
-   
+  
+}
