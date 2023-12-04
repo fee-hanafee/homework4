@@ -9,10 +9,12 @@ body {
   font-family: "Fira Sans Condensed", sans-serif;
 }
 .container {
+  height: 100%;
   width: 70%;
   min-width: 700px;
   margin: auto;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+ 
 }
 
 /* bar */
@@ -23,6 +25,7 @@ body {
   padding-right: 60px;
   height: 100px;
   padding-bottom: 24px;
+ 
 }
 .bar_select > a {
   text-decoration: none;
@@ -157,6 +160,7 @@ padding: 10px;
   .vdoContent > * {
     width: 450px;
     height: 280px;
+    
   }
   .ditest > * {
     display: flex;
